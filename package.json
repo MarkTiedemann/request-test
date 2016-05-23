@@ -1,0 +1,40 @@
+{
+  "name": "request-test",
+  "version": "1.0.0",
+  "description": "Convenience wrapper around Node core requests to easily test whether a request fails or succeeds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --serial --verbose --timeout 10s"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "request",
+    "test",
+    "check",
+    "success",
+    "fail",
+    "wrapper",
+    "cancel",
+    "abort"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "once": "^1.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTiedemann/request-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/request-test/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/request-test"
+}
